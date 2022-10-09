@@ -28,8 +28,8 @@ if(isset($_GET['bar_code'])){
     imagewebp($content, $output);
     imagedestroy($content);
     echo '<h4>Output Image Saved as ' . $output . '</h4>';
-	header("Location:output.webp");
-	exit();
+	// header("Location:output.webp");
+	// die();
 }	
 ?>
 </center>
