@@ -4,7 +4,7 @@
 <h1>
 Create Barcode
 </h1>
-<form action="index.php">
+<form>
 Enter barcode data <input type="" name="bar_code"><br>
 <input type="submit" value="Create Barcode">
 </form>
